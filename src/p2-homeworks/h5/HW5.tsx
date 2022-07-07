@@ -1,18 +1,24 @@
 import React from 'react'
 import Header from './Header'
-import Routes from './Routes'
+import Routess from './Routes'
+import {HashRouter} from "react-router-dom";
 
 function HW5() {
+
+    let HeaderStyle={
+        position:'relative',
+        color:'black'
+    }
     return (
         <div>
             {/*в gh-pages лучше работает HashRouter*/}
-            {/*<HashRouter>*/}
+            <HashRouter>
 
-            <Header/>
+            <Header />
 
-            <Routes/>
+            <Routess/>
 
-            {/*</HashRouter>*/}
+            </HashRouter>
         </div>
     )
 }

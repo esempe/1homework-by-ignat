@@ -64,6 +64,13 @@ function HW4() {
                 >
                     бебра {/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
+                <SuperCheckbox
+                    checked={checked}
+                    isChecked={checked}
+                    onChangeChecked={setChecked}
+                >
+                    бебра {/*// этот текст попадёт в children*/}
+                </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}
                 <SuperCheckbox checked={checked} isChecked={checked} onChange={testOnChange}/>

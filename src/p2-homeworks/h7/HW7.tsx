@@ -20,6 +20,7 @@ function HW7() {
                     onChangeOption={onChangeOption}
                 />
             </div>
+            {value}
             <div>
                 <SuperRadio
                     name={'radio'}
